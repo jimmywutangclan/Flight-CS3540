@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7238186476237600387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7238186476237600385}
+  - component: {fileID: 7238186476237600384}
+  - component: {fileID: 7238186476237600511}
+  - component: {fileID: 7238186476237600510}
+  m_Layer: 8
+  m_Name: MineableRock
+  m_TagString: RockCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7238186476237600385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238186476237600387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 562.01, y: 22.15, z: -38.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7238186476237600384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238186476237600387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0d1e521c2fe63f585ab1df3d144c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelChoices:
+  - {fileID: 1458408699819270846, guid: d3636d09b0494384ba3fddda9ef3ba99, type: 3}
+  - {fileID: 5535789459600692421, guid: 51a929d960e42c4448d591c7b12595a5, type: 3}
+  - {fileID: 5117655302838237525, guid: bde95c33262c6a346b58fcbc40c6638b, type: 3}
+  - {fileID: 6629825030998685070, guid: 44fc79d8498311043a01ed7c63f77c2a, type: 3}
+  - {fileID: 8814628479729783472, guid: a66c46f30bf01e947909883d29782217, type: 3}
+  - {fileID: 3161850869048655524, guid: fe0f2eab029bfd5448df4f9c1f77714c, type: 3}
+--- !u!114 &7238186476237600511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238186476237600387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d39446817e2e1ebeaa255369ddbd2ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7238186476237600510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238186476237600387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9401acf7c0cba4f8e82819ead510e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expectedRocksYielded: 3
+  hitsRequired: 9
+  minedRockPrefab: {fileID: 7037340272561928170, guid: 3dcd25daa08808b4994b5fbf006c50f0,
+    type: 3}
+  requireItemEquippedOfType: 6

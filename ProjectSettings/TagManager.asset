@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - StatBar
+  - Enemy
+  - Sun
+  - Moon
+  - Inventory
+  - TreeColliderParent
+  - TreeCollider
+  - ItemHoldPoint
+  - AmbientLight
+  - Spot
+  - Lava
+  - ZombieFoot
+  - FightManager
+  - PickupParent
+  - RockCollider
+  - RockParent
+  - RadiationZone
+  - Bush
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Interactive
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
